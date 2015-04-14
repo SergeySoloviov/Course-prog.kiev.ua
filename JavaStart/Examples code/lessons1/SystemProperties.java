@@ -1,11 +1,11 @@
-package com.soloviov.beginning.lessons1;
+package lessons1;
 
 import java.util.Map;
 
 /**
  * Created by Сережка on 31.03.2015.
  */
-public class SystemProperties {
+public class SystemProperties {                                                 // программа для просмотра системных свойств
     public static void main(String[] args) {
 
         // Java 8 Show all system properties
