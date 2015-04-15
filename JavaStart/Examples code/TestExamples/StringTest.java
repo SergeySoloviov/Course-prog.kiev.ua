@@ -22,13 +22,14 @@ public class StringTest {                                           // тест 
 
         long ts = System.nanoTime();
 
+//          Выбор метода:
 //        String buff = "";
 //        StringBuffer buff = new StringBuffer();
         StringBuilder buff = new StringBuilder();
 
         for (String word : words) {
-//            buff += word + "";
-            buff.append(word).append(" ");
+//            buff += word + "";                        // для String
+            buff.append(word).append(" ");              // для StringBuffer, StringBuilder
         }
 
         long te = System.nanoTime();
